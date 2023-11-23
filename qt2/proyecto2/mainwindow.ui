@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="iconos.qrc">
+    <normaloff>:/iconos/messi.jpg</normaloff>:/iconos/messi.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionActualizar"/>
+    <addaction name="actionGuardar"/>
+    <addaction name="actionEliminar"/>
+    <addaction name="actionImprimir"/>
+    <addaction name="actionDeshacer"/>
+   </widget>
+   <widget class="QMenu" name="menuEdicion">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <widget class="QMenu" name="menuAlinear">
+     <property name="title">
+      <string>Alinear</string>
+     </property>
+     <addaction name="actionDerecha"/>
+     <addaction name="actionIzquierda"/>
+     <addaction name="actionCentro"/>
+    </widget>
+    <addaction name="actionCopiar"/>
+    <addaction name="actionPegar"/>
+    <addaction name="actionCortar"/>
+    <addaction name="actionFuente"/>
+    <addaction name="actionColor"/>
+    <addaction name="menuAlinear"/>
+   </widget>
+   <widget class="QMenu" name="menuAcerca_de">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionAcerca_del_programa"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuEdicion"/>
+   <addaction name="menuAcerca_de"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbrir">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/abrir.png</normaloff>:/iconos/abrir.png</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/guardarcomo.png</normaloff>:/iconos/guardarcomo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionEliminar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/quitar.png</normaloff>:/iconos/quitar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionImprimir">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/imprimir.png</normaloff>:/iconos/imprimir.png</iconset>
+   </property>
+   <property name="text">
+    <string>Imprimir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionCopiar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/copiar.png</normaloff>:/iconos/copiar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copiar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPegar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/pegar.png</normaloff>:/iconos/pegar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pegar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionCortar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/cortar.png</normaloff>:/iconos/cortar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cortar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionFuente">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/fuente.png</normaloff>:/iconos/fuente.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fuente</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionColor">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/color.png</normaloff>:/iconos/color.png</iconset>
+   </property>
+   <property name="text">
+    <string>Color</string>
+   </property>
+  </action>
+  <action name="actionDerecha">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/derecha.png</normaloff>:/iconos/derecha.png</iconset>
+   </property>
+   <property name="text">
+    <string>Derecha</string>
+   </property>
+  </action>
+  <action name="actionIzquierda">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/izquierda.png</normaloff>:/iconos/izquierda.png</iconset>
+   </property>
+   <property name="text">
+    <string>Izquierda</string>
+   </property>
+  </action>
+  <action name="actionCentro">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/centro.png</normaloff>:/iconos/centro.png</iconset>
+   </property>
+   <property name="text">
+    <string>Centro</string>
+   </property>
+  </action>
+  <action name="actionAcerca_del_programa">
+   <property name="text">
+    <string>Acerca de</string>
+   </property>
+  </action>
+  <action name="actionActualizar">
+   <property name="text">
+    <string>Actualizar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionDeshacer">
+   <property name="text">
+    <string>Deshacer</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="iconos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

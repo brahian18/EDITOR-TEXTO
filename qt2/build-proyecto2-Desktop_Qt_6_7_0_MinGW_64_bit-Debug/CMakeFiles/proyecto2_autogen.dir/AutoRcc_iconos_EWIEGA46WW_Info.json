@@ -1,0 +1,34 @@
+{
+	"BUILD_DIR" : "C:/Users/pc/Downloads/qt2/build-proyecto2-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/proyecto2_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/pc/Downloads/qt2/build-proyecto2-Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/pc/Downloads/qt2/build-proyecto2-Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/pc/Downloads/qt2/proyecto2",
+	"CMAKE_SOURCE_DIR" : "C:/Users/pc/Downloads/qt2/proyecto2",
+	"INCLUDE_DIR" : "C:/Users/pc/Downloads/qt2/build-proyecto2-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/proyecto2_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/pc/Downloads/iconos/cortar.png",
+		"C:/Users/pc/Downloads/iconos/izquierda.png",
+		"C:/Users/pc/Downloads/iconos/quitar.png",
+		"C:/Users/pc/Downloads/iconos/imprimir.png",
+		"C:/Users/pc/Downloads/iconos/fuente.png",
+		"C:/Users/pc/Downloads/iconos/centro.png",
+		"C:/Users/pc/Downloads/iconos/color.png",
+		"C:/Users/pc/Downloads/iconos/abrir.png",
+		"C:/Users/pc/Downloads/iconos/guardarcomo.png",
+		"C:/Users/pc/Downloads/iconos/copiar.png",
+		"C:/Users/pc/Downloads/iconos/messi.jpg",
+		"C:/Users/pc/Downloads/iconos/derecha.png",
+		"C:/Users/pc/Downloads/iconos/pegar.png"
+	],
+	"LOCK_FILE" : "C:/Users/pc/Downloads/qt2/build-proyecto2-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/proyecto2_autogen.dir/AutoRcc_iconos_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "iconos" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_iconos.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.7.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/pc/Downloads/qt2/build-proyecto2-Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/proyecto2_autogen.dir/AutoRcc_iconos_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/pc/Downloads/qt2/proyecto2/iconos.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../iconos/abrir.png</file>
+        <file>../../iconos/centro.png</file>
+        <file>../../iconos/color.png</file>
+        <file>../../iconos/copiar.png</file>
+        <file>../../iconos/cortar.png</file>
+        <file>../../iconos/derecha.png</file>
+        <file>../../iconos/fuente.png</file>
+        <file>../../iconos/guardarcomo.png</file>
+        <file>../../iconos/imprimir.png</file>
+        <file>../../iconos/izquierda.png</file>
+        <file>../../iconos/messi.jpg</file>
+        <file>../../iconos/pegar.png</file>
+        <file>../../iconos/quitar.png</file>
+    </qresource>
+</RCC>
